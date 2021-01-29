@@ -1,2 +1,2 @@
 # random_english_words
-version 1.000 beta
+version 1.0 beta
