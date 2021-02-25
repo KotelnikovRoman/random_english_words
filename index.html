@@ -28,13 +28,32 @@
         <div class="container">
             <article class="article">
                 <img src="" alt="" class="article__img">
-                <img src="img/update.png" alt="update" title="update" class="article__update"
-                    onclick="random__img(words)">
-                <img src="" alt="" class="article__result">
-                <br>
+                <div class="gaming">
+                    <img src="img/play.png" alt="" class="gaming__img">
+                    <img src="img/update.png" alt="update" title="update" class="gaming__img gaming__img-update"
+                        onclick="random__img(words)">
+                    <img src="" alt="result" class="gaming__img gaming__img-result">
+                </div>
+                <!-- /.gaming -->
                 <input type="text" class="article__input">
                 <button class="article__btn" onclick="check_word()">Проверить</button>
                 <p class="article__phrase"></p>
+            </article>
+            <!-- /.article -->
+            <article class="article">
+                <div class="categories">
+                    <h2 class="categories__title">выбрать категорию</h2>
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">люди</li>
+                            <li class="nav__item">животные</li>
+                            <li class="nav__item">фрукты</li>
+                        </ul>
+                        <!-- /.nav__list -->
+                    </nav>
+                    <!-- /.nav -->
+                </div>
+                <!-- /.categories -->
             </article>
             <!-- /.article -->
         </div>

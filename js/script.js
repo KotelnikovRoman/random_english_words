@@ -1,7 +1,8 @@
 var img = document.querySelector(".article__img");
 var btn = document.querySelector(".article__btn");
 var input = document.querySelector(".article__input");
-var result = document.querySelector(".article__result");
+var result = document.querySelector(".gaming__img-result");
+
 var index_catalog = 0;
 var index_word = 0;
 
@@ -70,8 +71,8 @@ function random__img(arr) {
     //выбор изображения
     img_random = Math.floor(Math.random() * arr[arr_random].imgs.length);
     index_word = img_random;
+    input.placeholder = "Введите по английски что видите";
 
-    input.value = "Введите по английски что видите";
     return img.src = arr[arr_random].imgs[img_random];
 }
 random__img(words);

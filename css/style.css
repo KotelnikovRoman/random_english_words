@@ -3,25 +3,45 @@
   padding: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
-  width: 900px;
+  width: 500px;
   margin: 0 auto;
+  background: #ccc;
+}
+
+.logo {
+  text-align: center;
+}
+
+.article {
+  height: 100%;
+  text-align: center;
 }
 
 .article__img {
-  height: 200px;
-}
-
-.article__update, .article__result {
-  width: 50px;
-  height: 50px;
-  output: 0;
-  output-border: 0;
+  width: 98%;
 }
 
 .article__input {
   width: 300px;
   height: 40px;
   line-height: 40px;
+}
+
+.article__btn {
+  height: 40px;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.gaming__img {
+  width: 50px;
+  height: 50px;
+  border: 0;
+  output: 0;
 }
 /*# sourceMappingURL=style.css.map */
