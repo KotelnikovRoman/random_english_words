@@ -44,4 +44,8 @@ ul {
   border: 0;
   output: 0;
 }
+
+.gaming__img-result {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
